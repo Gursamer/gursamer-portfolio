@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - Gursamer Singh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact" class="fade-in-section visible contact-section">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p><strong>Email:</strong> <a href="mailto:mangatgursamer@gmail.com">mangatgursamer@gmail.com</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gursamer-singh-36883928a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/gursamer-singh-36883928a/</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Gursamer" target="_blank" rel="noopener noreferrer">github.com/Gursamer</a></p>
+                    <p><strong>Phone:</strong> 510-754-9791</p>
+                    <p><strong>Resume:</strong> <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Download PDF</a></p>
+                </div>
+                <form class="contact-form" action="mailto:mangatgursamer@gmail.com" method="POST" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <textarea name="message" placeholder="Message" rows="6" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
